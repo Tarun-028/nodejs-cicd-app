@@ -37,7 +37,7 @@ app.get("/", (req, res) => {
         <body>
             <div class="card">
                 <h1>Node.js CI/CD Application</h1>
-                <p class="status">Application is running successfully!</p>
+                <p class="status">Application deployed automatically by Jenkins CI/CD!</p>
                 <p>Deployed automatically using Jenkins and Docker.</p>
                 <p>Version: <code>${VERSION}</code></p>
                 <p>Repository: Tarun-028/nodejs-cicd-app</p>
